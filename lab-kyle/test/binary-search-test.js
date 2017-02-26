@@ -16,4 +16,10 @@ describe('binary-search', function() {
     expect(result).to.equal(false)
     done()
   })
+  it('should return false given an empty array', done => {
+    let array = []
+    let result = bs(0, array)
+    expect(result).to.equal(false)
+    done()
+  })
 })
