@@ -6,6 +6,7 @@ describe('binary-search', function() {
     this.array = [1, 2, 3, 4, 5]
     done()
   })
+  
   it('should return true given a value of 1', done => {
     let result = bs(1, this.array)
     expect(result).to.equal(true)
