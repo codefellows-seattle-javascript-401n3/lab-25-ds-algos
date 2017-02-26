@@ -15,13 +15,3 @@ module.exports = function bs(value, array) {
     return bs(value, newArray)
   }
 }
-
-// let array = [1,2,3,4,5]
-// let test1 = bs(0, array)
-// let test2 = bs(2, array)
-// let test3 = bs(5, array)
-// let test4 = bs(6, array)
-// console.log(test1)
-// console.log(test2)
-// console.log(test3)
-// console.log(test4)
